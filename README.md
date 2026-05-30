@@ -78,7 +78,7 @@ Portfolio/
 │   ├── config/
 │   │   └── db.js
 │   │
-│   ├── server.js
+│   ├── index.js
 │   ├── package.json
 │   └── .env
 │
@@ -108,7 +108,7 @@ FRONTEND_URL=http://localhost:4000
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/Megha-Portfolio/portfolio.git
 ```
 
 ### Move into Project Directory
@@ -132,7 +132,7 @@ npm run dev
 Frontend runs on:
 
 ```bash
-http://localhost:5173
+http://localhost:4000
 ```
 
 ---
@@ -150,7 +150,7 @@ npm run dev
 Backend runs on:
 
 ```bash
-http://localhost:4000
+http://localhost:5173
 ```
 
 ---
