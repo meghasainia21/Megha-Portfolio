@@ -42,8 +42,7 @@ A full-stack MERN Portfolio Website designed to showcase my projects, technical 
 - Mongoose
 
 ### Deployment
-- Vercel (Frontend)
-- Render / Railway (Backend)
+- Render Deployment
 - MongoDB Atlas
 
 ---
