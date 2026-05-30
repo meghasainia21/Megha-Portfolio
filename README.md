@@ -175,21 +175,6 @@ POST /api/contact
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-
-Add screenshot here
-
-### Projects Section
-
-Add screenshot here
-
-### Contact Section
-
-Add screenshot here
-
----
 
 ## 💡 Future Improvements
 
@@ -203,9 +188,9 @@ Add screenshot here
 
 **Megha Sainia**
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/meghasainia21
 
-LinkedIn: YOUR_LINKEDIN_URL
+LinkedIn: https://www.linkedin.com/in/megha-sainia/
 
 Portfolio: YOUR_PORTFOLIO_URL
 
