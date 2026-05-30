@@ -4,24 +4,21 @@ A full-stack MERN Portfolio Website designed to showcase my projects, technical 
 
 ---
 
-## 🌐 Live Demo
-
-🔗 Frontend: YOUR_FRONTEND_URL
-
-🔗 Backend API: YOUR_BACKEND_URL
-
----
 
 ## ✨ Features
 
 - Responsive Design
 - Modern UI/UX
+- Dark/Light Theme Toggle
 - Project Showcase
 - Skills Section
+- Achievements Section
 - About Section
 - Contact Form Integration
 - Backend API Integration
 - Form Validation
+- Resume Download Analytics
+- Authentication System
 - Environment Variable Support
 - Scalable MERN Architecture
 
@@ -62,7 +59,6 @@ Portfolio/
 │   │   ├── assets/
 │   │   ├── components/
 │   │   ├── pages/
-│   │   ├── hooks/
 │   │   ├── css/
 │   │   └── App.jsx
 │   │
@@ -78,9 +74,6 @@ Portfolio/
 │   │
 │   ├── routes/
 │   │   └── contactRoutes.js
-│   │
-│   ├── middleware/
-│   │   └── errorMiddleware.js
 │   │
 │   ├── config/
 │   │   └── db.js
@@ -101,15 +94,11 @@ Portfolio/
 Create a `.env` file inside the Backend directory:
 
 ```env
-PORT=5000
+PORT=4000
 
 MONGODB_URI=your_mongodb_connection_string
 
-EMAIL_USER=your_email
-
-EMAIL_PASS=your_email_password
-
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=http://localhost:4000
 ```
 
 ---
@@ -161,7 +150,7 @@ npm run dev
 Backend runs on:
 
 ```bash
-http://localhost:5000
+http://localhost:4000
 ```
 
 ---
@@ -205,11 +194,8 @@ Add screenshot here
 ## 💡 Future Improvements
 
 - Admin Dashboard
-- Dark/Light Theme Toggle
 - Blog Integration
-- Resume Download Analytics
 - Project Filtering
-- Authentication System
 
 ---
 
