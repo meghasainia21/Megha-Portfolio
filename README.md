@@ -1,4 +1,4 @@
-# 🚀 Personal Portfolio Website
+# 🚀 Megha Sainia Portfolio Website
 
 A full-stack MERN Portfolio Website designed to showcase my projects, technical skills, achievements, and professional profile. The application features a responsive user interface, smooth user experience, and a backend-powered contact system for handling user inquiries.
 
@@ -144,7 +144,7 @@ cd Backend
 
 npm install
 
-npm run dev
+npm start
 ```
 
 Backend runs on:
