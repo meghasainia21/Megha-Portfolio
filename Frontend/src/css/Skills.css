@@ -1,0 +1,128 @@
+.skills-section { background: transparent; }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.skill-category { padding: 28px; }
+
+.skill-cat-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.skill-cat-icon { font-size: 24px; }
+
+.skill-cat-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.skill-item { margin-bottom: 18px; }
+.skill-item:last-child { margin-bottom: 0; }
+
+.skill-item-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.skill-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.skill-level {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--accent);
+}
+
+.skill-bar {
+  height: 6px;
+  background: var(--bg3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  border-radius: 3px;
+  transition: width 1.2s cubic-bezier(0.4,0,0.2,1);
+  position: relative;
+}
+
+.skill-bar-fill::after {
+  content: '';
+  position: absolute;
+  right: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 0 6px var(--accent);
+  opacity: 0.8;
+}
+
+/* TECH CLOUD */
+.tech-cloud {
+  text-align: center;
+}
+
+.tech-cloud-title {
+  font-family: var(--font-display);
+  font-size: 39px;
+  font-weight: 900;
+  color:rgb(44, 252, 252);
+  margin-bottom: 24px;
+}
+
+.tech-tags {
+  margin-top: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tech-tag {
+   margin: 6px;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  font-family: var(--font-mono);
+  font-size: 19.5px;
+  font-weight: 800;
+  color: var(--text2);
+  cursor: default;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.5s ease both;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.tech-tag:hover {
+  background: var(--glow);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--glow);
+}
+
+@media (max-width: 768px) {
+  .skills-grid { grid-template-columns: 1fr; }
+}
