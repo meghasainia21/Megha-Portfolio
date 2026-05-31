@@ -22,7 +22,7 @@ export default function Contact() {
     setStatus("sending");
 
     const response = await fetch(
-      "http://localhost:4000/api/contact",
+      "https://megha-portfolio-ylig.onrender.com/api/contact",
       {
         method: "POST",
         headers: {
