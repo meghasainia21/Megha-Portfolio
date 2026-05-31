@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { useChildReveal } from "../hooks/UseScrollReveal";
+import { useChildReveal } from "../hooks/useScrollReveal";
 import "../css/Contact.css";
 import resumePDF from "../assets/Megha_Sainia_Resume.pdf";
 
