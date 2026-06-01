@@ -192,7 +192,7 @@ GitHub: https://github.com/meghasainia21
 
 LinkedIn: https://www.linkedin.com/in/megha-sainia/
 
-Portfolio: YOUR_PORTFOLIO_URL
+Portfolio: https://megha-portfolio-frontend.onrender.com
 
 ---
 
