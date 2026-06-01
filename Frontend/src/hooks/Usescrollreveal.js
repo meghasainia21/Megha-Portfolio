@@ -6,7 +6,7 @@ export function useScrollReveal(options = {}) {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-
+  
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {

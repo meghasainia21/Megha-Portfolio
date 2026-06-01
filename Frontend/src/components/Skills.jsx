@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { useChildReveal } from "../hooks/useScrollReveal";
+import { useChildReveal } from "../hooks/Usescrollreveal";
 import "../css/Skills.css";
 
 const SKILL_CATEGORIES = [

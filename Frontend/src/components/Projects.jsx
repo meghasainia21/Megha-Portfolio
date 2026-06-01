@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useChildReveal } from "../hooks/useScrollReveal";
+import { useChildReveal } from "../hooks/Usescrollreveal";
 import "../css/Projects.css";
 
 const PROJECTS = [

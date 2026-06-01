@@ -1,4 +1,4 @@
-import { useChildReveal } from "../hooks/useScrollReveal";
+import { useChildReveal } from "../hooks/Usescrollreveal";
 import "../css/About.css";
 
 const FACTS = [
